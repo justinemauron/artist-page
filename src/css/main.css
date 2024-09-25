@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+body {
+  background-image: url(../img/backgroung-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+img,
+video {
+  display: block;
+}
+
+.socials-box {
+  display: flex;
+  width: 103px;
+  height: 982px;
+  padding: 120px 12px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #00000099;
+}
+
+.socials {
+  display: flex;
+  width: 102px;
+  height: 688px;
+  padding: 57px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+  flex-shrink: 0;
+}
+
+.socials,
+img {
+  width: 80px;
+  height: 80px;
+  gap: 72px;
+}
+
+.name-box {
+  display: flex;
+  height: 172px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 103px;
+  flex-shrink: 0;
+  align-self: stretch;
+  padding-left: 60px;
+}
+
+.surname,
+.name {
+  color: #ff2525;
+  font-family: "Space Grotesk";
+  font-size: 210px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+.first-letter {
+  text-align: right;
+  font-family: "Beau Rivage";
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.name {
+  height: 28px;
+  flex-shrink: 0;
+  align-self: stretch;
+  margin-left: -180px;
+}
+
+.surname {
+  margin-right: -160px;
+}
+
+.quote {
+  color: #ff2525;
+  text-align: center;
+  font-family: "Space Grotesk";
+  font-size: 46px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 2.3px;
+  width: 293px;
+  margin-left: 40px;
+}
+
+.text-info {
+  display: flex;
+  width: 712px;
+  height: 584px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 175px;
+  flex-shrink: 0;
+  margin: 199px 0px;
+  gap: 240px;
+}
+
+.artist {
+  display: flex;
+  width: 479px;
+  height: 982px;
+  padding: 113px 0px 185px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.artist-picture {
+  width: 421px;
+  height: 752px;
+  flex-shrink: 0;
+}
+
+.content {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  padding: 0 145px;
+}
